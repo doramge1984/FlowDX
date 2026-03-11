@@ -152,5 +152,5 @@ html { scroll-behavior: smooth; }
   box-shadow: inset 0 0 40px rgba(79, 70, 229, 0.05);
 }
 @media (max-width: 768px) {
-  .brand-circle { width: 240px; height: 240px; }
+  .brand-circle { width: 280px; height: 280px; }
 }

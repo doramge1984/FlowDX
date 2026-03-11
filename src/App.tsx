@@ -37,29 +37,29 @@ export default function App() {
 
       <main className="relative z-10">
         {/* Section 1: Hero */}
-        <section className="h-screen w-full flex flex-col items-center justify-center px-6 overflow-hidden">
-          <div className="animate-scale-up flex flex-col items-center mt-24">
+        <section className="min-h-[100svh] w-full flex flex-col items-center justify-center px-6 pt-24 pb-12 overflow-hidden">
+          <div className="animate-scale-up flex flex-col items-center">
             <div className="brand-circle backdrop-blur-[2px] bg-white/5 shadow-inner">
-              <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl tracking-[0.05em] leading-none select-none bg-clip-text text-transparent bg-gradient-to-br from-[#2a3890] to-indigo-500">
+              <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-[0.05em] leading-none select-none bg-clip-text text-transparent bg-gradient-to-br from-[#2a3890] to-indigo-500">
                 FlowDX
               </h1>
             </div>
             
-            <div className="mt-12 max-w-2xl md:max-w-4xl text-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
-              <p className="font-serif italic text-[26px] md:text-[30px] text-ink/80 mb-8 leading-relaxed">"기술의 소외 없는 흐름을 통해,<br />모두를 위한 디지털 기회를 확장합니다."</p>
-              <p className="font-sans text-[18px] md:text-[19px] text-ink/50 font-light leading-relaxed px-4">
+            <div className="mt-10 md:mt-12 max-w-2xl md:max-w-4xl text-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
+              <p className="font-serif italic text-[22px] sm:text-[26px] md:text-[30px] text-ink/80 mb-6 md:mb-8 leading-relaxed">"기술의 소외 없는 흐름을 통해,<br />모두를 위한 디지털 기회를 확장합니다."</p>
+              <p className="font-sans text-[16px] sm:text-[18px] md:text-[19px] text-ink/50 font-light leading-relaxed px-2 md:px-4">
                 FlowDX의 <strong>Flow</strong>는 우리가 먼저 얻은 지식과 경험을 세상으로 흘려보내어, <br className="hidden lg:block" />
                 AI 시대 디지털 기술로 인해 누구도 소외되지 않는 세상을 만들겠다는 우리의 사명을 상징합니다. 
-                <br className="mb-4" /> 
+                <br className="mb-3 md:mb-4" /> 
                 글로벌 표준을 선도하는 Google Certified 전문가 그룹이 데이터(Data)의 흐름을 설계하고, <br className="hidden lg:block" />
                 그 위에서 누구나 차별 없이 최신의 <strong>디지털 경험(eXperience)을 누리는 세상을 만드는 것</strong>. <br />
                 그것이 FlowDX가 그리는 교육의 미래입니다.
               </p>
             </div>
 
-            <div className="mt-16 flex flex-col items-center animate-fade-in" style={{ animationDelay: '1.2s' }}>
-              <div className="w-px h-12 bg-neutral-300 mb-4"></div>
-              <span className="font-mono text-xs text-neutral-400 uppercase tracking-[0.3em]">Scroll to Explore</span>
+            <div className="mt-12 md:mt-16 flex flex-col items-center animate-fade-in" style={{ animationDelay: '1.2s' }}>
+              <div className="w-px h-10 md:h-12 bg-neutral-300 mb-4"></div>
+              <span className="font-mono text-[10px] md:text-xs text-neutral-400 uppercase tracking-[0.3em]">Scroll to Explore</span>
             </div>
           </div>
         </section>
