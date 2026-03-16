@@ -22,8 +22,13 @@ export default function App() {
 
       <nav className="fixed top-0 w-full z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 shadow-sm">
         <div className="max-w-screen-2xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
-          <a href="#" className="flex items-center justify-center bg-white rounded-full px-6 py-2.5 shadow-md group hover:shadow-lg transition-all">
-            <span className="font-serif text-2xl tracking-tight font-bold text-[#2a3890]">FlowDX</span>
+          <a href="#" className="flex items-center justify-center bg-white rounded-full px-6 py-2 shadow-md group hover:shadow-lg transition-all h-12">
+            <img 
+              src="/logo.png" 
+              alt="FlowDX Logo" 
+              className="h-full w-auto object-contain"
+              referrerPolicy="no-referrer"
+            />
           </a>
           <div className="hidden md:flex items-center gap-10">
             <a href="#mission" className="font-mono text-sm text-slate-300 hover:text-white uppercase tracking-widest transition-colors">About</a>
@@ -39,11 +44,17 @@ export default function App() {
         {/* Section 1: Hero */}
         <section className="min-h-[100svh] w-full flex flex-col items-center justify-center px-6 pt-24 pb-12 overflow-hidden">
           <div className="animate-scale-up flex flex-col items-center">
-            <div className="brand-circle backdrop-blur-[2px] bg-white/5 shadow-inner">
-              <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-[0.05em] leading-none select-none bg-clip-text text-transparent bg-gradient-to-br from-[#2a3890] to-indigo-500">
-                FlowDX
-              </h1>
+            <div className="brand-circle backdrop-blur-[2px] bg-white/5 shadow-inner p-6 md:p-8">
+              <img 
+                src="/logo.png" 
+                alt="FlowDX Logo" 
+                className="w-full h-full object-contain"
+                referrerPolicy="no-referrer"
+              />
             </div>
+            <h1 className="mt-6 font-serif text-3xl sm:text-4xl tracking-[0.05em] leading-none select-none bg-clip-text text-transparent bg-gradient-to-br from-[#2a3890] to-indigo-500">
+              FlowDX
+            </h1>
             
             <div className="mt-10 md:mt-12 max-w-2xl md:max-w-4xl text-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
               <p className="font-serif italic text-[22px] sm:text-[26px] md:text-[30px] text-ink/80 mb-6 md:mb-8 leading-relaxed">"기술의 소외 없는 흐름을 통해,<br />모두를 위한 디지털 기회를 확장합니다."</p>
@@ -404,10 +415,13 @@ export default function App() {
 
       <footer className="py-16 border-t border-neutral-200 text-center relative z-10 bg-paper">
         <div className="max-w-screen-2xl mx-auto px-6 flex flex-col items-center">
-          <div className="w-32 h-32 border border-indigo-600/20 rounded-full flex items-center justify-center mb-8 shadow-[inset_0_0_20px_rgba(79,70,229,0.05)] bg-white/5">
-            <span className="font-serif text-3xl tracking-[0.05em] bg-clip-text text-transparent bg-gradient-to-br from-ink via-indigo-900 to-indigo-600">
-              FlowDX
-            </span>
+          <div className="w-32 h-32 border border-indigo-600/20 rounded-full flex items-center justify-center mb-8 shadow-[inset_0_0_20px_rgba(79,70,229,0.05)] bg-white/5 p-4">
+            <img 
+              src="/logo.png" 
+              alt="FlowDX Logo" 
+              className="w-full h-full object-contain"
+              referrerPolicy="no-referrer"
+            />
           </div>
           <span className="font-mono text-xs text-neutral-400 uppercase tracking-[0.2em] flex items-center gap-2">
             © <span className="font-serif text-sm tracking-normal capitalize bg-clip-text text-transparent bg-gradient-to-br from-ink via-indigo-900 to-indigo-600">FlowDX</span> — NEXT GENERATION AI EDUCATION PARTNER
